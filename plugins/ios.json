@@ -1,0 +1,28 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.swyftmobile.jaxsfdev"
+        },
+        "com.salesforce": {
+            "PACKAGE_NAME": "com.swyftmobile.jaxsfdev"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.swyftmobile.jaxsfdev"
+        },
+        "phonegap-plugin-push": {
+            "PACKAGE_NAME": "com.swyftmobile.jaxsfdev"
+        },
+        "cordova-plugin-wkwebview-engine": {
+            "PACKAGE_NAME": "com.swyftmobile.jaxsfdev"
+        }
+    }
+}

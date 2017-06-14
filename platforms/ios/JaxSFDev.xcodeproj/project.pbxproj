@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01405F1AA2C2454DB2198884 /* CDVWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 776E33B406514C8189A8BB7E /* CDVWKWebViewEngine.m */; };
+		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		082DFA5FA8F14790AED69CA0 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE59F4818944FD8D8D0AE5 /* AppDelegate+notification.m */; };
+		0C9DFA751C01486ABEF587DE /* libGTMStackTrace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1480DE6830D9459680D6658D /* libGTMStackTrace.a */; };
+		121D955B1DFB432493085962 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE1ECED3439457DAA9453D8 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		18B3BF48551047C4A02E899E /* libGTMSessionFetcher_full.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB555A2A3244E8491BAC8A0 /* libGTMSessionFetcher_full.a */; };
+		1900E13032FE49E2B75E7CE7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FB5A557CC546618602155E /* QuartzCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1931C026F97244F28FBCECA5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C260390B61BD453A8FFC79F8 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		19BF771CC7524B39A0040597 /* libGTMSessionFetcher_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C87A378B43C941398B492D9E /* libGTMSessionFetcher_core.a */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1F245879872D4A49B39B3ABA /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FC34AB40BF4CD783B1CB7D /* libCocoaLumberjack.a */; };
+		2A95E6621F6C46F7B9B9C784 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F354AC9F9F44589AF4367A /* InitialViewController.m */; };
+		2C716CBC7A6B4D6FAD3DA6A8 /* libGTM_NSStringXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 281F3760C5324B94A8269484 /* libGTM_NSStringXML.a */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		306D02B7B1A7413D8E0F38F2 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = AD297247135F44619B0DFBDB /* PushPlugin.m */; };
+		3616815E8E4748A38929C6ED /* libGTM_SystemVersion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84082E33B3B143D7B7ABC106 /* libGTM_SystemVersion.a */; };
+		38E54B03AD9F42DCB95F8589 /* libSalesforceAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2777E41B0014CB9BD8940C0 /* libSalesforceAnalytics.a */; };
+		3B272EF91C6F4838B8D810F8 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1253F4E22E84C4FAC5F0113 /* AddressBookUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3DBB70FFD6E74F44BFC9D7C0 /* SalesforceSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5B2B8C50E08B4C289E3B3CA0 /* SalesforceSDKResources.bundle */; };
+		4587D2053DCC47CF8E4F5E19 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 691A23DAF8A64A018CB059AC /* CDVDevice.m */; };
+		4B476CE647BA402DBBCCC329 /* libGTM_UIFont+LineHeight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAD1119F89644C7930727F1 /* libGTM_UIFont+LineHeight.a */; };
+		4D56A7D2B8A64886897BCF65 /* libGTM_NSScannerJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BA8E3B31D54BB1B6EE58AE /* libGTM_NSScannerJSON.a */; };
+		4D69E979421E4B02BBA87556 /* libGTM_AddressBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 544E5FC3D33749E2BD4775C5 /* libGTM_AddressBook.a */; };
+		4E0AE4E2717A42448EFC7199 /* libGTM_RoundedRectPath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5261FE28455D484198E95F3C /* libGTM_RoundedRectPath.a */; };
+		5AD225FF1CCB4C7ABFBA56F7 /* libGGLInstanceIDLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5E670E317145AEB53A717E /* libGGLInstanceIDLib.a */; };
+		5E823670ADE346AAA7108208 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3437A4E1A15945BF9C43FB33 /* libz.tbd */; };
+		63A758826DD24451B79D5803 /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B78C8196C84893A51E6BC2 /* libProtocolBuffers.a */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		6D194CC55DBD4CD5A0CDB310 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810FF87F22624BD1812D9001 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7158F0D54C0F420E87BC415E /* AppDelegate+SalesforceHybridSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CBA38679F34F9581840AB4 /* AppDelegate+SalesforceHybridSDK.m */; };
+		72B48D03A53C41F6BBBEA2C9 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D51CE3A2DB549F798222D60 /* libxml2.tbd */; };
+		745E92574629463FB8987B72 /* libSmartStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B4A2DCD0474D83B8E860DE /* libSmartStore.a */; };
+		786F40A9D19F413C86033267 /* libGTM_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7B13402AB141698EE3A6F9 /* libGTM_core.a */; };
+		7B359A72E9214E7DA791F49F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B93BB4F584A45F7A0307FCA /* Images.xcassets */; };
+		7D79D6BA0886440A87314373 /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15481EB0FCDA4AF0B939AFC8 /* libsqlcipher.a */; };
+		833426BC62C14B3BB7B8F753 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C72AD4F151749DBA5706900 /* libsqlite3.tbd */; };
+		93BD921BBF5B4FE8B784F71F /* libGTM_GTMURLBuilder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3E0E9A06B9410D8B5EAB44 /* libGTM_GTMURLBuilder.a */; };
+		988474B90C274811AB785E52 /* libGTM_NSData+zlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B7BD366ADB4148976BC32B /* libGTM_NSData+zlib.a */; };
+		9D365E374AD94C1CAF403F16 /* libSalesforceHybridSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2160FC0A0D5349A3A555E232 /* libSalesforceHybridSDK.a */; };
+		A0F69AFEE47A4F04B1E5A9E5 /* libGTM_DebugUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D22D1F9B1945BA92E615E2 /* libGTM_DebugUtils.a */; };
+		AA002F00156D4169990798CB /* CDVWKProcessPoolFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 296788FBDDED4F7395364D3A /* CDVWKProcessPoolFactory.m */; };
+		AAA2A5BA69D248C596BD9F3C /* SalesforceSDKAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BAEB9B843A54CBA967F968D /* SalesforceSDKAssets.xcassets */; };
+		ADB0819819FC4D41B71196BA /* libGSDK_Overload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B181050C8B584469AD2FF796 /* libGSDK_Overload.a */; };
+		B326AA5C6E7F47B597BDA7FB /* libGTM_NSStringHTML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B44B7D9A03425A97E10F98 /* libGTM_NSStringHTML.a */; };
+		BF25E5F3774D4AA58502A34F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF039C2FBAAE445599192836 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BF29AF7B57F9459C9415824B /* libGTM_StringEncoding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0841C163E7F64B1796356CF0 /* libGTM_StringEncoding.a */; };
+		C08B8E92C07A43FFA5203708 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59950E26FEE49188C2B728E /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C1544886742B482C96F0B7A6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBD2C828FF541D787AADEE4 /* AddressBook.framework */; };
+		C516EE00CE174366B4EB761E /* libGcmLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4B5D15AF77476CBE528429 /* libGcmLib.a */; };
+		CAEA725593D141BBA0BFC27A /* CDVWKWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5400054016254DF2868CA5C0 /* CDVWKWebViewUIDelegate.m */; };
+		D2A4C47907CE4E62A94D657B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78BF44EF3014309BDE92074 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D859371208DB4EB5B1A4D522 /* libGTM_KVO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4384BC8951A478093600812 /* libGTM_KVO.a */; };
+		D9FAACC6094141108654D126 /* libGGLCloudMessaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE8A1295C414620841CD9AE /* libGGLCloudMessaging.a */; };
+		DACF9CADE68041619C8F01D1 /* libGTM_NSDictionary+URLArguments.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AAB50F37E54B8E8A002412 /* libGTM_NSDictionary+URLArguments.a */; };
+		E19E78AEF5BD415CA9DB6546 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD817BA834D4CE0B6622C53 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E19ED41068494317A5426AB8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02BD3C72FE04BE6AB5226A0 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E2EBA52507214C2D85F3D30B /* libSalesforceSDKCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76028363D3074B639A4B541D /* libSalesforceSDKCore.a */; };
+		E539FC482717438F9E9FDB44 /* libGTM_Regex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CE9296FB224EF2A504B29C /* libGTM_Regex.a */; };
+		E5DB34D65EAC46DF8CA78784 /* libGTM_iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7030DECB5745309697FCDF /* libGTM_iPhone.a */; };
+		EB1684C8CF8C433B9E36638E /* libGIP_Reachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36352F566443415FB2DEAD47 /* libGIP_Reachability.a */; };
+		F275F85DBE9D4301871F0E46 /* UIApplication+SalesforceHybridSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF0C203BBEC438387167795 /* UIApplication+SalesforceHybridSDK.m */; };
+		F2E101DB6CC744B6916A6AA8 /* libGGLCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03645F5AD7884E2FBE25C691 /* libGGLCore.a */; };
+		F67DC9A419E742A2814985AC /* libSmartSync.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0A4B17AFE34B2F8C6928BB /* libSmartSync.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = JaxSFDev/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		02BD384211F049E9B83A83A6 /* GCMConfig.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCMConfig.h; path = "phonegap-plugin-push/GCM/Headers/GCMConfig.h"; sourceTree = "<group>"; };
+		03645F5AD7884E2FBE25C691 /* libGGLCore.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGGLCore.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGGLCore.a"; sourceTree = "<group>"; };
+		03B4A2DCD0474D83B8E860DE /* libSmartStore.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libSmartStore.a; path = JaxSFDev/Plugins/com.salesforce/libSmartStore.a; sourceTree = "<group>"; };
+		04B3E818EDCF43BAB4EC5327 /* GCMReceiverDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCMReceiverDelegate.h; path = "phonegap-plugin-push/GCM/Headers/GCMReceiverDelegate.h"; sourceTree = "<group>"; };
+		04B78C8196C84893A51E6BC2 /* libProtocolBuffers.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libProtocolBuffers.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libProtocolBuffers.a"; sourceTree = "<group>"; };
+		0841C163E7F64B1796356CF0 /* libGTM_StringEncoding.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTM_StringEncoding.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_StringEncoding.a"; sourceTree = "<group>"; };
+		0B93BB4F584A45F7A0307FCA /* Images.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BA0204C49234246B4992433 /* SFLoggerMacros.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFLoggerMacros.h; path = com.salesforce/salesforce/SFLoggerMacros.h; sourceTree = "<group>"; };
+		0D15242D77EF44C68100B7DC /* SFUserAccountManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFUserAccountManager.h; path = com.salesforce/salesforce/SFUserAccountManager.h; sourceTree = "<group>"; };
+		0D17A129B7B94A829DCFFA1B /* SalesforceSDKManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SalesforceSDKManager.h; path = com.salesforce/salesforce/SalesforceSDKManager.h; sourceTree = "<group>"; };
+		0DE1ECED3439457DAA9453D8 /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		12B8F0B49E2F40EBA045D3FD /* CDVWKProcessPoolFactory.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVWKProcessPoolFactory.h; path = "cordova-plugin-wkwebview-engine/CDVWKProcessPoolFactory.h"; sourceTree = "<group>"; };
+		145F96F45B3A481D824EB1C1 /* SFDefaultUserManagementViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFDefaultUserManagementViewController.h; path = com.salesforce/salesforce/SFDefaultUserManagementViewController.h; sourceTree = "<group>"; };
+		1480DE6830D9459680D6658D /* libGTMStackTrace.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTMStackTrace.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTMStackTrace.a"; sourceTree = "<group>"; };
+		15481EB0FCDA4AF0B939AFC8 /* libsqlcipher.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libsqlcipher.a; path = JaxSFDev/Plugins/com.salesforce/libsqlcipher.a; sourceTree = "<group>"; };
+		15BE573FB11148DA98B3704D /* SFAuthErrorHandler.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFAuthErrorHandler.h; path = com.salesforce/salesforce/SFAuthErrorHandler.h; sourceTree = "<group>"; };
+		17FC34AB40BF4CD783B1CB7D /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libCocoaLumberjack.a; path = JaxSFDev/Plugins/com.salesforce/libCocoaLumberjack.a; sourceTree = "<group>"; };
+		18EB726E280B476DA8E83C66 /* SFHybridViewConfig.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFHybridViewConfig.h; path = com.salesforce/salesforce/SFHybridViewConfig.h; sourceTree = "<group>"; };
+		19D304841BFB4256B3387260 /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
+		1BD31814807840908A1A3D62 /* CDVWKWebViewEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVWKWebViewEngine.h; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewEngine.h"; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* JaxSFDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaxSFDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2057A1F00D044938949F74B5 /* SFLogger.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFLogger.h; path = com.salesforce/salesforce/SFLogger.h; sourceTree = "<group>"; };
+		2160FC0A0D5349A3A555E232 /* libSalesforceHybridSDK.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libSalesforceHybridSDK.a; path = JaxSFDev/Plugins/com.salesforce/libSalesforceHybridSDK.a; sourceTree = "<group>"; };
+		2252FD23F3634863AF8652B0 /* SalesforceSDKCoreDefines.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SalesforceSDKCoreDefines.h; path = com.salesforce/salesforce/SalesforceSDKCoreDefines.h; sourceTree = "<group>"; };
+		229D09484A2746B39BEE379D /* SFIdentityCoordinator.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFIdentityCoordinator.h; path = com.salesforce/salesforce/SFIdentityCoordinator.h; sourceTree = "<group>"; };
+		2373948B5EA24D99BD90C05F /* SFSDKLoginHostDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFSDKLoginHostDelegate.h; path = com.salesforce/salesforce/SFSDKLoginHostDelegate.h; sourceTree = "<group>"; };
+		24FDB28617064D3B9DE0EA35 /* SFHybridViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFHybridViewController.h; path = com.salesforce/salesforce/SFHybridViewController.h; sourceTree = "<group>"; };
+		270D6583D7BA4373BB8C85CB /* GCMService.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCMService.h; path = "phonegap-plugin-push/GCM/Headers/GCMService.h"; sourceTree = "<group>"; };
+		281F3760C5324B94A8269484 /* libGTM_NSStringXML.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTM_NSStringXML.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSStringXML.a"; sourceTree = "<group>"; };
+		296788FBDDED4F7395364D3A /* CDVWKProcessPoolFactory.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKProcessPoolFactory.m; path = "cordova-plugin-wkwebview-engine/CDVWKProcessPoolFactory.m"; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B732652BCFC4BC897CBFCC5 /* NSNotificationCenter+SFAdditions.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+SFAdditions.h"; path = "com.salesforce/salesforce/NSNotificationCenter+SFAdditions.h"; sourceTree = "<group>"; };
+		2BBD2C828FF541D787AADEE4 /* AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		2F3E0E9A06B9410D8B5EAB44 /* libGTM_GTMURLBuilder.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTM_GTMURLBuilder.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_GTMURLBuilder.a"; sourceTree = "<group>"; };
+		2F7030DECB5745309697FCDF /* libGTM_iPhone.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTM_iPhone.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_iPhone.a"; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
+		315ADE411A1945F192080C47 /* SalesforceSDKManagerWithSmartStore.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SalesforceSDKManagerWithSmartStore.h; path = com.salesforce/salesforce/SalesforceSDKManagerWithSmartStore.h; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* JaxSFDev-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JaxSFDev-Prefix.pch"; sourceTree = "<group>"; };
+		3424DFFF980C4DFA888AC890 /* SFSDKLoginHost.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFSDKLoginHost.h; path = com.salesforce/salesforce/SFSDKLoginHost.h; sourceTree = "<group>"; };
+		3437A4E1A15945BF9C43FB33 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		36352F566443415FB2DEAD47 /* libGIP_Reachability.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGIP_Reachability.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGIP_Reachability.a"; sourceTree = "<group>"; };
+		396411B52F424520B288E4AE /* SFSDKAppConfig.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFSDKAppConfig.h; path = com.salesforce/salesforce/SFSDKAppConfig.h; sourceTree = "<group>"; };
+		3AA66AF491004C0394B4F28D /* GGLInstanceIDConfig.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDConfig.h; path = "phonegap-plugin-push/GCM/Headers/GGLInstanceIDConfig.h"; sourceTree = "<group>"; };
+		47AA5A217E004056BF7E494D /* SFCommunityData.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFCommunityData.h; path = com.salesforce/salesforce/SFCommunityData.h; sourceTree = "<group>"; };
+		4BAEB9B843A54CBA967F968D /* SalesforceSDKAssets.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; path = SalesforceSDKAssets.xcassets; sourceTree = "<group>"; };
+		4CBE59F4818944FD8D8D0AE5 /* AppDelegate+notification.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+notification.m"; path = "phonegap-plugin-push/AppDelegate+notification.m"; sourceTree = "<group>"; };
+		4F2ED69B6F9F4FA799643AE8 /* SFUserAccountConstants.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFUserAccountConstants.h; path = com.salesforce/salesforce/SFUserAccountConstants.h; sourceTree = "<group>"; };
+		5261FE28455D484198E95F3C /* libGTM_RoundedRectPath.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTM_RoundedRectPath.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_RoundedRectPath.a"; sourceTree = "<group>"; };
+		5400054016254DF2868CA5C0 /* CDVWKWebViewUIDelegate.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKWebViewUIDelegate.m; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewUIDelegate.m"; sourceTree = "<group>"; };
+		544E5FC3D33749E2BD4775C5 /* libGTM_AddressBook.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTM_AddressBook.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_AddressBook.a"; sourceTree = "<group>"; };
+		56BA8E3B31D54BB1B6EE58AE /* libGTM_NSScannerJSON.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTM_NSScannerJSON.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSScannerJSON.a"; sourceTree = "<group>"; };
+		584B0D8AFA404FC2853537AE /* GGLContext.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GGLContext.h; path = "phonegap-plugin-push/GCM/Headers/GGLContext.h"; sourceTree = "<group>"; };
+		5AAD1119F89644C7930727F1 /* libGTM_UIFont+LineHeight.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = "libGTM_UIFont+LineHeight.a"; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_UIFont+LineHeight.a"; sourceTree = "<group>"; };
+		5B2B8C50E08B4C289E3B3CA0 /* SalesforceSDKResources.bundle */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.plug-in"; path = SalesforceSDKResources.bundle; sourceTree = "<group>"; };
+		5B6C9DDBBDFE4C868D8417BE /* GCMPubSub.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCMPubSub.h; path = "phonegap-plugin-push/GCM/Headers/GCMPubSub.h"; sourceTree = "<group>"; };
+		5C4B5D15AF77476CBE528429 /* libGcmLib.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGcmLib.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGcmLib.a"; sourceTree = "<group>"; };
+		5D51CE3A2DB549F798222D60 /* libxml2.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		5F0A4B17AFE34B2F8C6928BB /* libSmartSync.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libSmartSync.a; path = JaxSFDev/Plugins/com.salesforce/libSmartSync.a; sourceTree = "<group>"; };
+		6012BAB56AE7495BBC9BDCB7 /* SFPushNotificationManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFPushNotificationManager.h; path = com.salesforce/salesforce/SFPushNotificationManager.h; sourceTree = "<group>"; };
+		65B44B7D9A03425A97E10F98 /* libGTM_NSStringHTML.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTM_NSStringHTML.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSStringHTML.a"; sourceTree = "<group>"; };
+		66CE9296FB224EF2A504B29C /* libGTM_Regex.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTM_Regex.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_Regex.a"; sourceTree = "<group>"; };
+		691A23DAF8A64A018CB059AC /* CDVDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
+		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = JaxSFDev/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		6B0240F6D55C4B39A4BFD265 /* GGLContext+CloudMessaging.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "GGLContext+CloudMessaging.h"; path = "phonegap-plugin-push/GCM/Headers/GGLContext+CloudMessaging.h"; sourceTree = "<group>"; };
+		6C7B13402AB141698EE3A6F9 /* libGTM_core.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTM_core.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_core.a"; sourceTree = "<group>"; };
+		6CE8A1295C414620841CD9AE /* libGGLCloudMessaging.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGGLCloudMessaging.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGGLCloudMessaging.a"; sourceTree = "<group>"; };
+		71AAB50F37E54B8E8A002412 /* libGTM_NSDictionary+URLArguments.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = "libGTM_NSDictionary+URLArguments.a"; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSDictionary+URLArguments.a"; sourceTree = "<group>"; };
+		738F016EC5D14C33B85AE99A /* SFLoginViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFLoginViewController.h; path = com.salesforce/salesforce/SFLoginViewController.h; sourceTree = "<group>"; };
+		76028363D3074B639A4B541D /* libSalesforceSDKCore.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libSalesforceSDKCore.a; path = JaxSFDev/Plugins/com.salesforce/libSalesforceSDKCore.a; sourceTree = "<group>"; };
+		776E33B406514C8189A8BB7E /* CDVWKWebViewEngine.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKWebViewEngine.m; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewEngine.m"; sourceTree = "<group>"; };
+		7A6CEA2C19EF4AF18D1FEFDF /* Core.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Core.h; path = "phonegap-plugin-push/GCM/Headers/Core.h"; sourceTree = "<group>"; };
+		7C6F2B2DCA6B43CABB299CC1 /* GGLInstanceID.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GGLInstanceID.h; path = "phonegap-plugin-push/GCM/Headers/GGLInstanceID.h"; sourceTree = "<group>"; };
+		7C72AD4F151749DBA5706900 /* libsqlite3.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		810FF87F22624BD1812D9001 /* MessageUI.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		83348C66B0F845ABB6201660 /* CloudMessaging.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CloudMessaging.h; path = "phonegap-plugin-push/GCM/Headers/CloudMessaging.h"; sourceTree = "<group>"; };
+		84082E33B3B143D7B7ABC106 /* libGTM_SystemVersion.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTM_SystemVersion.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_SystemVersion.a"; sourceTree = "<group>"; };
+		8852C8EB47CF4A41A06DCA7B /* GGLErrorCode.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GGLErrorCode.h; path = "phonegap-plugin-push/GCM/Headers/GGLErrorCode.h"; sourceTree = "<group>"; };
+		8C344F7E9EB642EBA7D64B33 /* GoogleCloudMessaging.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GoogleCloudMessaging.h; path = "phonegap-plugin-push/GCM/Headers/GoogleCloudMessaging.h"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* JaxSFDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JaxSFDev-Info.plist"; path = "JaxSFDev/JaxSFDev-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		9112345068344BCCBC10D58F /* GGLConfiguration.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GGLConfiguration.h; path = "phonegap-plugin-push/GCM/Headers/GGLConfiguration.h"; sourceTree = "<group>"; };
+		96EB24C57CD144B1ACA01D0C /* SFUserAccountIdentity.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFUserAccountIdentity.h; path = com.salesforce/salesforce/SFUserAccountIdentity.h; sourceTree = "<group>"; };
+		97CBA38679F34F9581840AB4 /* AppDelegate+SalesforceHybridSDK.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+SalesforceHybridSDK.m"; path = "com.salesforce/AppDelegate+SalesforceHybridSDK.m"; sourceTree = "<group>"; };
+		9A800710921E4F5BA4544341 /* InitialViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = InitialViewController.h; path = com.salesforce/salesforce/InitialViewController.h; sourceTree = "<group>"; };
+		9F971C05FBFA40A7BB7A4F14 /* AppDelegate+SalesforceHybridSDK.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+SalesforceHybridSDK.h"; path = "com.salesforce/AppDelegate+SalesforceHybridSDK.h"; sourceTree = "<group>"; };
+		A018E446B46C4605B7D1CA4B /* GGLInstanceIDDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDDelegate.h; path = "phonegap-plugin-push/GCM/Headers/GGLInstanceIDDelegate.h"; sourceTree = "<group>"; };
+		A02BD3C72FE04BE6AB5226A0 /* ImageIO.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A4D22D1F9B1945BA92E615E2 /* libGTM_DebugUtils.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTM_DebugUtils.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_DebugUtils.a"; sourceTree = "<group>"; };
+		A78BF44EF3014309BDE92074 /* WebKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		ACD817BA834D4CE0B6622C53 /* Security.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AD297247135F44619B0DFBDB /* PushPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = PushPlugin.m; path = "phonegap-plugin-push/PushPlugin.m"; sourceTree = "<group>"; };
+		AFB555A2A3244E8491BAC8A0 /* libGTMSessionFetcher_full.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_full.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTMSessionFetcher_full.a"; sourceTree = "<group>"; };
+		AFF0C203BBEC438387167795 /* UIApplication+SalesforceHybridSDK.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+SalesforceHybridSDK.m"; path = "com.salesforce/UIApplication+SalesforceHybridSDK.m"; sourceTree = "<group>"; };
+		B0FB5A557CC546618602155E /* QuartzCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B181050C8B584469AD2FF796 /* libGSDK_Overload.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGSDK_Overload.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGSDK_Overload.a"; sourceTree = "<group>"; };
+		B181F829DF0248489009C839 /* PushPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = PushPlugin.h; path = "phonegap-plugin-push/PushPlugin.h"; sourceTree = "<group>"; };
+		B28CDE7C1EF1D3090086662B /* JaxSFDev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = JaxSFDev.entitlements; path = JaxSFDev/JaxSFDev.entitlements; sourceTree = "<group>"; };
+		B2DA4A52025D472AA71C194E /* GGLInstanceIDHeaders.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDHeaders.h; path = "phonegap-plugin-push/GCM/Headers/GGLInstanceIDHeaders.h"; sourceTree = "<group>"; };
+		B5F354AC9F9F44589AF4367A /* InitialViewController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = InitialViewController.m; path = com.salesforce/InitialViewController.m; sourceTree = "<group>"; };
+		B86EBB1CC96D455D8CEE4687 /* SFSDKLoginHostListViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFSDKLoginHostListViewController.h; path = com.salesforce/salesforce/SFSDKLoginHostListViewController.h; sourceTree = "<group>"; };
+		BA5E670E317145AEB53A717E /* libGGLInstanceIDLib.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGGLInstanceIDLib.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGGLInstanceIDLib.a"; sourceTree = "<group>"; };
+		BC160C8F64844610A4117A95 /* SFOAuthCoordinator.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFOAuthCoordinator.h; path = com.salesforce/salesforce/SFOAuthCoordinator.h; sourceTree = "<group>"; };
+		BF039C2FBAAE445599192836 /* Foundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C260390B61BD453A8FFC79F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C2777E41B0014CB9BD8940C0 /* libSalesforceAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libSalesforceAnalytics.a; path = JaxSFDev/Plugins/com.salesforce/libSalesforceAnalytics.a; sourceTree = "<group>"; };
+		C424DEE4C9614583807E8482 /* SFAuthErrorHandlerList.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFAuthErrorHandlerList.h; path = com.salesforce/salesforce/SFAuthErrorHandlerList.h; sourceTree = "<group>"; };
+		C4384BC8951A478093600812 /* libGTM_KVO.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTM_KVO.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_KVO.a"; sourceTree = "<group>"; };
+		C87A378B43C941398B492D9E /* libGTMSessionFetcher_core.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_core.a; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTMSessionFetcher_core.a"; sourceTree = "<group>"; };
+		CA600BED19AA4E5F9CAB9CA0 /* SFOAuthCredentials.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFOAuthCredentials.h; path = com.salesforce/salesforce/SFOAuthCredentials.h; sourceTree = "<group>"; };
+		D59950E26FEE49188C2B728E /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCD163487A544BAEBC66C6E5 /* SFOAuthInfo.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFOAuthInfo.h; path = com.salesforce/salesforce/SFOAuthInfo.h; sourceTree = "<group>"; };
+		DE6517F7FF124918A1A9B1C4 /* SFUserAccount.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFUserAccount.h; path = com.salesforce/salesforce/SFUserAccount.h; sourceTree = "<group>"; };
+		E1253F4E22E84C4FAC5F0113 /* AddressBookUI.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		E43388AC790F48BCB4B43589 /* SFLocalhostSubstitutionCache.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFLocalhostSubstitutionCache.h; path = com.salesforce/salesforce/SFLocalhostSubstitutionCache.h; sourceTree = "<group>"; };
+		E75A5E5CD2964E62B8BDC3B4 /* SFAuthenticationManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFAuthenticationManager.h; path = com.salesforce/salesforce/SFAuthenticationManager.h; sourceTree = "<group>"; };
+		E9B7BD366ADB4148976BC32B /* libGTM_NSData+zlib.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = "libGTM_NSData+zlib.a"; path = "JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSData+zlib.a"; sourceTree = "<group>"; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		EBF3E5CEF32D4C19BE56DEDF /* SFSDKLoginHostStorage.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFSDKLoginHostStorage.h; path = com.salesforce/salesforce/SFSDKLoginHostStorage.h; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		EF5685650DD1483F93DFBCEF /* CDVWKWebViewUIDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVWKWebViewUIDelegate.h; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewUIDelegate.h"; sourceTree = "<group>"; };
+		F366244539EB465785E80458 /* UIApplication+SalesforceHybridSDK.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "UIApplication+SalesforceHybridSDK.h"; path = "com.salesforce/UIApplication+SalesforceHybridSDK.h"; sourceTree = "<group>"; };
+		F7C57369D4E54042AC968264 /* AppDelegate+notification.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+notification.h"; path = "phonegap-plugin-push/AppDelegate+notification.h"; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = JaxSFDev/config.xml; sourceTree = "<group>"; };
+		FF82502D8064477284DFE343 /* SFIdentityData.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SFIdentityData.h; path = com.salesforce/salesforce/SFIdentityData.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				D9FAACC6094141108654D126 /* libGGLCloudMessaging.a in Frameworks */,
+				F2E101DB6CC744B6916A6AA8 /* libGGLCore.a in Frameworks */,
+				5AD225FF1CCB4C7ABFBA56F7 /* libGGLInstanceIDLib.a in Frameworks */,
+				EB1684C8CF8C433B9E36638E /* libGIP_Reachability.a in Frameworks */,
+				ADB0819819FC4D41B71196BA /* libGSDK_Overload.a in Frameworks */,
+				19BF771CC7524B39A0040597 /* libGTMSessionFetcher_core.a in Frameworks */,
+				18B3BF48551047C4A02E899E /* libGTMSessionFetcher_full.a in Frameworks */,
+				0C9DFA751C01486ABEF587DE /* libGTMStackTrace.a in Frameworks */,
+				4D69E979421E4B02BBA87556 /* libGTM_AddressBook.a in Frameworks */,
+				A0F69AFEE47A4F04B1E5A9E5 /* libGTM_DebugUtils.a in Frameworks */,
+				93BD921BBF5B4FE8B784F71F /* libGTM_GTMURLBuilder.a in Frameworks */,
+				D859371208DB4EB5B1A4D522 /* libGTM_KVO.a in Frameworks */,
+				988474B90C274811AB785E52 /* libGTM_NSData+zlib.a in Frameworks */,
+				DACF9CADE68041619C8F01D1 /* libGTM_NSDictionary+URLArguments.a in Frameworks */,
+				4D56A7D2B8A64886897BCF65 /* libGTM_NSScannerJSON.a in Frameworks */,
+				B326AA5C6E7F47B597BDA7FB /* libGTM_NSStringHTML.a in Frameworks */,
+				2C716CBC7A6B4D6FAD3DA6A8 /* libGTM_NSStringXML.a in Frameworks */,
+				E539FC482717438F9E9FDB44 /* libGTM_Regex.a in Frameworks */,
+				4E0AE4E2717A42448EFC7199 /* libGTM_RoundedRectPath.a in Frameworks */,
+				BF29AF7B57F9459C9415824B /* libGTM_StringEncoding.a in Frameworks */,
+				3616815E8E4748A38929C6ED /* libGTM_SystemVersion.a in Frameworks */,
+				4B476CE647BA402DBBCCC329 /* libGTM_UIFont+LineHeight.a in Frameworks */,
+				786F40A9D19F413C86033267 /* libGTM_core.a in Frameworks */,
+				E5DB34D65EAC46DF8CA78784 /* libGTM_iPhone.a in Frameworks */,
+				C516EE00CE174366B4EB761E /* libGcmLib.a in Frameworks */,
+				63A758826DD24451B79D5803 /* libProtocolBuffers.a in Frameworks */,
+				C1544886742B482C96F0B7A6 /* AddressBook.framework in Frameworks */,
+				833426BC62C14B3BB7B8F753 /* libsqlite3.tbd in Frameworks */,
+				5E823670ADE346AAA7108208 /* libz.tbd in Frameworks */,
+				D2A4C47907CE4E62A94D657B /* WebKit.framework in Frameworks */,
+				38E54B03AD9F42DCB95F8589 /* libSalesforceAnalytics.a in Frameworks */,
+				E2EBA52507214C2D85F3D30B /* libSalesforceSDKCore.a in Frameworks */,
+				745E92574629463FB8987B72 /* libSmartStore.a in Frameworks */,
+				F67DC9A419E742A2814985AC /* libSmartSync.a in Frameworks */,
+				9D365E374AD94C1CAF403F16 /* libSalesforceHybridSDK.a in Frameworks */,
+				7D79D6BA0886440A87314373 /* libsqlcipher.a in Frameworks */,
+				1F245879872D4A49B39B3ABA /* libCocoaLumberjack.a in Frameworks */,
+				72B48D03A53C41F6BBBEA2C9 /* libxml2.tbd in Frameworks */,
+				3B272EF91C6F4838B8D810F8 /* AddressBookUI.framework in Frameworks */,
+				121D955B1DFB432493085962 /* CoreLocation.framework in Frameworks */,
+				BF25E5F3774D4AA58502A34F /* Foundation.framework in Frameworks */,
+				6D194CC55DBD4CD5A0CDB310 /* MessageUI.framework in Frameworks */,
+				1900E13032FE49E2B75E7CE7 /* QuartzCore.framework in Frameworks */,
+				E19E78AEF5BD415CA9DB6546 /* Security.framework in Frameworks */,
+				1931C026F97244F28FBCECA5 /* SystemConfiguration.framework in Frameworks */,
+				C08B8E92C07A43FFA5203708 /* UIKit.framework in Frameworks */,
+				E19ED41068494317A5426AB8 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = JaxSFDev/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* JaxSFDev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B28CDE7C1EF1D3090086662B /* JaxSFDev.entitlements */,
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* JaxSFDev-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
+			);
+			name = "Other Sources";
+			path = JaxSFDev;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0207DA571B56EA530066E2B4 /* Images.xcassets */,
+				3047A50E1AB8057F00498E2A /* config */,
+				8D1107310486CEB800E47090 /* JaxSFDev-Info.plist */,
+				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				5B2B8C50E08B4C289E3B3CA0 /* SalesforceSDKResources.bundle */,
+				0B93BB4F584A45F7A0307FCA /* Images.xcassets */,
+				4BAEB9B843A54CBA967F968D /* SalesforceSDKAssets.xcassets */,
+			);
+			name = Resources;
+			path = JaxSFDev/Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CE8A1295C414620841CD9AE /* libGGLCloudMessaging.a */,
+				03645F5AD7884E2FBE25C691 /* libGGLCore.a */,
+				BA5E670E317145AEB53A717E /* libGGLInstanceIDLib.a */,
+				36352F566443415FB2DEAD47 /* libGIP_Reachability.a */,
+				B181050C8B584469AD2FF796 /* libGSDK_Overload.a */,
+				C87A378B43C941398B492D9E /* libGTMSessionFetcher_core.a */,
+				AFB555A2A3244E8491BAC8A0 /* libGTMSessionFetcher_full.a */,
+				1480DE6830D9459680D6658D /* libGTMStackTrace.a */,
+				544E5FC3D33749E2BD4775C5 /* libGTM_AddressBook.a */,
+				A4D22D1F9B1945BA92E615E2 /* libGTM_DebugUtils.a */,
+				2F3E0E9A06B9410D8B5EAB44 /* libGTM_GTMURLBuilder.a */,
+				C4384BC8951A478093600812 /* libGTM_KVO.a */,
+				E9B7BD366ADB4148976BC32B /* libGTM_NSData+zlib.a */,
+				71AAB50F37E54B8E8A002412 /* libGTM_NSDictionary+URLArguments.a */,
+				56BA8E3B31D54BB1B6EE58AE /* libGTM_NSScannerJSON.a */,
+				65B44B7D9A03425A97E10F98 /* libGTM_NSStringHTML.a */,
+				281F3760C5324B94A8269484 /* libGTM_NSStringXML.a */,
+				66CE9296FB224EF2A504B29C /* libGTM_Regex.a */,
+				5261FE28455D484198E95F3C /* libGTM_RoundedRectPath.a */,
+				0841C163E7F64B1796356CF0 /* libGTM_StringEncoding.a */,
+				84082E33B3B143D7B7ABC106 /* libGTM_SystemVersion.a */,
+				5AAD1119F89644C7930727F1 /* libGTM_UIFont+LineHeight.a */,
+				6C7B13402AB141698EE3A6F9 /* libGTM_core.a */,
+				2F7030DECB5745309697FCDF /* libGTM_iPhone.a */,
+				5C4B5D15AF77476CBE528429 /* libGcmLib.a */,
+				04B78C8196C84893A51E6BC2 /* libProtocolBuffers.a */,
+				2BBD2C828FF541D787AADEE4 /* AddressBook.framework */,
+				7C72AD4F151749DBA5706900 /* libsqlite3.tbd */,
+				3437A4E1A15945BF9C43FB33 /* libz.tbd */,
+				A78BF44EF3014309BDE92074 /* WebKit.framework */,
+				C2777E41B0014CB9BD8940C0 /* libSalesforceAnalytics.a */,
+				76028363D3074B639A4B541D /* libSalesforceSDKCore.a */,
+				03B4A2DCD0474D83B8E860DE /* libSmartStore.a */,
+				5F0A4B17AFE34B2F8C6928BB /* libSmartSync.a */,
+				2160FC0A0D5349A3A555E232 /* libSalesforceHybridSDK.a */,
+				15481EB0FCDA4AF0B939AFC8 /* libsqlcipher.a */,
+				17FC34AB40BF4CD783B1CB7D /* libCocoaLumberjack.a */,
+				5D51CE3A2DB549F798222D60 /* libxml2.tbd */,
+				E1253F4E22E84C4FAC5F0113 /* AddressBookUI.framework */,
+				0DE1ECED3439457DAA9453D8 /* CoreLocation.framework */,
+				BF039C2FBAAE445599192836 /* Foundation.framework */,
+				810FF87F22624BD1812D9001 /* MessageUI.framework */,
+				B0FB5A557CC546618602155E /* QuartzCore.framework */,
+				ACD817BA834D4CE0B6622C53 /* Security.framework */,
+				C260390B61BD453A8FFC79F8 /* SystemConfiguration.framework */,
+				D59950E26FEE49188C2B728E /* UIKit.framework */,
+				A02BD3C72FE04BE6AB5226A0 /* ImageIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3047A50E1AB8057F00498E2A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				3047A50F1AB8059700498E2A /* build-debug.xcconfig */,
+				3047A5101AB8059700498E2A /* build-release.xcconfig */,
+				3047A5111AB8059700498E2A /* build.xcconfig */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				691A23DAF8A64A018CB059AC /* CDVDevice.m */,
+				19D304841BFB4256B3387260 /* CDVDevice.h */,
+				4CBE59F4818944FD8D8D0AE5 /* AppDelegate+notification.m */,
+				AD297247135F44619B0DFBDB /* PushPlugin.m */,
+				F7C57369D4E54042AC968264 /* AppDelegate+notification.h */,
+				B181F829DF0248489009C839 /* PushPlugin.h */,
+				7C6F2B2DCA6B43CABB299CC1 /* GGLInstanceID.h */,
+				3AA66AF491004C0394B4F28D /* GGLInstanceIDConfig.h */,
+				A018E446B46C4605B7D1CA4B /* GGLInstanceIDDelegate.h */,
+				B2DA4A52025D472AA71C194E /* GGLInstanceIDHeaders.h */,
+				83348C66B0F845ABB6201660 /* CloudMessaging.h */,
+				6B0240F6D55C4B39A4BFD265 /* GGLContext+CloudMessaging.h */,
+				7A6CEA2C19EF4AF18D1FEFDF /* Core.h */,
+				9112345068344BCCBC10D58F /* GGLConfiguration.h */,
+				584B0D8AFA404FC2853537AE /* GGLContext.h */,
+				8852C8EB47CF4A41A06DCA7B /* GGLErrorCode.h */,
+				02BD384211F049E9B83A83A6 /* GCMConfig.h */,
+				5B6C9DDBBDFE4C868D8417BE /* GCMPubSub.h */,
+				04B3E818EDCF43BAB4EC5327 /* GCMReceiverDelegate.h */,
+				270D6583D7BA4373BB8C85CB /* GCMService.h */,
+				8C344F7E9EB642EBA7D64B33 /* GoogleCloudMessaging.h */,
+				776E33B406514C8189A8BB7E /* CDVWKWebViewEngine.m */,
+				5400054016254DF2868CA5C0 /* CDVWKWebViewUIDelegate.m */,
+				296788FBDDED4F7395364D3A /* CDVWKProcessPoolFactory.m */,
+				1BD31814807840908A1A3D62 /* CDVWKWebViewEngine.h */,
+				EF5685650DD1483F93DFBCEF /* CDVWKWebViewUIDelegate.h */,
+				12B8F0B49E2F40EBA045D3FD /* CDVWKProcessPoolFactory.h */,
+				97CBA38679F34F9581840AB4 /* AppDelegate+SalesforceHybridSDK.m */,
+				AFF0C203BBEC438387167795 /* UIApplication+SalesforceHybridSDK.m */,
+				B5F354AC9F9F44589AF4367A /* InitialViewController.m */,
+				E75A5E5CD2964E62B8BDC3B4 /* SFAuthenticationManager.h */,
+				47AA5A217E004056BF7E494D /* SFCommunityData.h */,
+				396411B52F424520B288E4AE /* SFSDKAppConfig.h */,
+				9A800710921E4F5BA4544341 /* InitialViewController.h */,
+				145F96F45B3A481D824EB1C1 /* SFDefaultUserManagementViewController.h */,
+				18EB726E280B476DA8E83C66 /* SFHybridViewConfig.h */,
+				24FDB28617064D3B9DE0EA35 /* SFHybridViewController.h */,
+				229D09484A2746B39BEE379D /* SFIdentityCoordinator.h */,
+				FF82502D8064477284DFE343 /* SFIdentityData.h */,
+				E43388AC790F48BCB4B43589 /* SFLocalhostSubstitutionCache.h */,
+				2057A1F00D044938949F74B5 /* SFLogger.h */,
+				0BA0204C49234246B4992433 /* SFLoggerMacros.h */,
+				2B732652BCFC4BC897CBFCC5 /* NSNotificationCenter+SFAdditions.h */,
+				BC160C8F64844610A4117A95 /* SFOAuthCoordinator.h */,
+				CA600BED19AA4E5F9CAB9CA0 /* SFOAuthCredentials.h */,
+				DCD163487A544BAEBC66C6E5 /* SFOAuthInfo.h */,
+				6012BAB56AE7495BBC9BDCB7 /* SFPushNotificationManager.h */,
+				DE6517F7FF124918A1A9B1C4 /* SFUserAccount.h */,
+				4F2ED69B6F9F4FA799643AE8 /* SFUserAccountConstants.h */,
+				0D15242D77EF44C68100B7DC /* SFUserAccountManager.h */,
+				96EB24C57CD144B1ACA01D0C /* SFUserAccountIdentity.h */,
+				0D17A129B7B94A829DCFFA1B /* SalesforceSDKManager.h */,
+				315ADE411A1945F192080C47 /* SalesforceSDKManagerWithSmartStore.h */,
+				15BE573FB11148DA98B3704D /* SFAuthErrorHandler.h */,
+				C424DEE4C9614583807E8482 /* SFAuthErrorHandlerList.h */,
+				2252FD23F3634863AF8652B0 /* SalesforceSDKCoreDefines.h */,
+				738F016EC5D14C33B85AE99A /* SFLoginViewController.h */,
+				2373948B5EA24D99BD90C05F /* SFSDKLoginHostDelegate.h */,
+				3424DFFF980C4DFA888AC890 /* SFSDKLoginHost.h */,
+				B86EBB1CC96D455D8CEE4687 /* SFSDKLoginHostListViewController.h */,
+				EBF3E5CEF32D4C19BE56DEDF /* SFSDKLoginHostStorage.h */,
+				9F971C05FBFA40A7BB7A4F14 /* AppDelegate+SalesforceHybridSDK.h */,
+				F366244539EB465785E80458 /* UIApplication+SalesforceHybridSDK.h */,
+			);
+			name = Plugins;
+			path = JaxSFDev/Plugins;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* JaxSFDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "JaxSFDev" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = JaxSFDev;
+			productName = JaxSFDev;
+			productReference = 1D6058910D05DD3D006BFB54 /* JaxSFDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = JXRDDKQ33V;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JaxSFDev" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* JaxSFDev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
+				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				3DBB70FFD6E74F44BFC9D7C0 /* SalesforceSDKResources.bundle in Resources */,
+				7B359A72E9214E7DA791F49F /* Images.xcassets in Resources */,
+				AAA2A5BA69D248C596BD9F3C /* SalesforceSDKAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				4587D2053DCC47CF8E4F5E19 /* CDVDevice.m in Sources */,
+				082DFA5FA8F14790AED69CA0 /* AppDelegate+notification.m in Sources */,
+				306D02B7B1A7413D8E0F38F2 /* PushPlugin.m in Sources */,
+				01405F1AA2C2454DB2198884 /* CDVWKWebViewEngine.m in Sources */,
+				CAEA725593D141BBA0BFC27A /* CDVWKWebViewUIDelegate.m in Sources */,
+				AA002F00156D4169990798CB /* CDVWKProcessPoolFactory.m in Sources */,
+				7158F0D54C0F420E87BC415E /* AppDelegate+SalesforceHybridSDK.m in Sources */,
+				F275F85DBE9D4301871F0E46 /* UIApplication+SalesforceHybridSDK.m in Sources */,
+				2A95E6621F6C46F7B9B9C784 /* InitialViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = JaxSFDev/JaxSFDev.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = JXRDDKQ33V;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JaxSFDev/JaxSFDev-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "JaxSFDev/JaxSFDev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+				);
+				PRODUCT_NAME = JaxSFDev;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = JaxSFDev/JaxSFDev.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = JXRDDKQ33V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JaxSFDev/JaxSFDev-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "JaxSFDev/JaxSFDev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+					"\"$(SRCROOT)/JaxSFDev/Plugins/com.salesforce\"",
+				);
+				PRODUCT_NAME = JaxSFDev;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "JaxSFDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JaxSFDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
